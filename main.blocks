@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="bXcf^AxrS)Lx=}Q_,3OR" x="0" y="0"><statement name="HANDLER"><block type="device_while" id="d^)!k0dvV-+7D@Jy|%Vf"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="device_get_button2" id="#Xd/f9dQC_Lj[t0vqG8|"><field name="NAME">Button.AB</field></block></value><statement name="DO"><block type="device_show_leds" id="bB#n9]n}=h9B`^5u1$j7"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . . . . 
+        . . # . .
+        `</field><next><block type="device_clear_display" id="7J]*?i~Rj9VTqI@T-c.}"><next><block type="device_pause" id="^$43w=-]jf8egrxJAwQ%"><value name="pause"><shadow type="timePicker" id="d)aQ0Dv4Z;ua,kuFWabE"><field name="ms">100</field></shadow></value></block></next></block></next></block></statement><next><block type="device_while" id="Lm!lO2Lr$||;0j[@qfO-"><value name="COND"><shadow type="logic_boolean" disabled="true"><field name="BOOL">FALSE</field></shadow><block type="deviceisgesture" id="(bH1]g3b)7uf?2DG8%Ho"><field name="gesture">Gesture.TiltLeft</field></block></value><statement name="DO"><block type="device_show_leds" id="y`Xm:,Uk#1%]P(/_k1P|"><field name="LEDS">`
+        . . # . . 
+        . # # . . 
+        # # # # # 
+        . # # . . 
+        . . # . .
+        `</field><next><block type="device_clear_display" id="*!_5^iU8kyQ(hx!g,6dw"><next><block type="device_pause" id="$a]jc`Ai7X9D*yE?O]M."><value name="pause"><shadow type="timePicker" id="OaJnr4xma/4i|?r+LX/!"><field name="ms">100</field></shadow></value></block></next></block></next></block></statement><next><block type="device_while" id="_z.v9PDpF!P^57O`@!pM"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="deviceisgesture" id="By@4#t`VQ7H9h)OGx~aP"><field name="gesture">Gesture.TiltRight</field></block></value><statement name="DO"><block type="device_show_leds" id="Dr3M)^~RS:%_.1psK8N-"><field name="LEDS">`
+        . . # . . 
+        . . # # . 
+        # # # # # 
+        . . # # . 
+        . . # . .
+        `</field><next><block type="device_clear_display" id="68SbcBbVDBjM/ra#L,`I"><next><block type="device_pause" id=":/N_)4uuMv-iPQ5b,oVX"><value name="pause"><shadow type="timePicker" id="9WrnFgZFoqiNPgO0v|)9"><field name="ms">100</field></shadow></value></block></next></block></next></block></statement></block></next></block></next></block></statement></block></xml>
